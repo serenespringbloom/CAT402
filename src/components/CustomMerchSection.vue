@@ -193,6 +193,10 @@ ul {
     color: #ff6f61;
     margin-bottom: 20px;
   }
+
+  .custom-merch h3{
+    color:#333;
+  }
   
   .custom-merch p {
     font-size: 1.1rem;
