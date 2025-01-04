@@ -105,21 +105,6 @@ html {
 section {
   scroll-margin-top: 80px; /* Adjust to match the header height */
 }
-
-/* header {
-  background: linear-gradient(to right, #ec9b5a, #f3c677);
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  color: #fff;
-} */
-
 /* Header Styles */
 .site-header {
   background: linear-gradient(to right, #f7e6da, #f3c677);
@@ -148,27 +133,12 @@ header h1 {
   width: auto; /* Adjust size based on your logo image */
   height: 75px; /* Adjust size based on your logo image */
   border-radius: 15%; /* Optional: makes the logo circular */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Adds a subtle shadow for a 3D effect */
   transition: transform 0.3s ease; /* Animation for hover effect */
 }
 
 .logo img:hover {
   transform: scale(1.1); /* Slight zoom effect on hover */
 }
-
-/* .logo a {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
-  transition: color 0.3s ease, transform 0.3s ease; 
-}
-
-.logo a:hover {
-  color: #ffe4c4; 
-  transform: translateY(-2px); 
-} */
 
 .nav-menu {
   display: flex;
@@ -251,6 +221,7 @@ nav a {
 .footer-brand p {
   font-size: 1rem;
   line-height: 1.6;
+  color:#a0a0a0;
 }
 
 .footer-links {
@@ -318,6 +289,10 @@ nav a {
   padding-top: 15px;
   font-size: 0.9rem;
   color: #aaa;
+}
+
+.footer-bottom p{
+  color:#a0a0a0;
 }
 
 /* Responsive Design */
