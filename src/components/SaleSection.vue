@@ -195,6 +195,7 @@ ul {
 }
 
 .product h3 {
+  color:#333;
   font-size: 1.2rem;
   margin: 10px 0;
 }

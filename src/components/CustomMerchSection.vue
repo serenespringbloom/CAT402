@@ -176,19 +176,26 @@ ul {
   animation: fadeIn 1s ease-in forwards;
 }
 
-  .custom-merch {
-    padding: 60px 20px;
-    background-color: #ffffff;
-    background: url("../assets/images/paw-print.png") repeat;
-    background-size: 1600px;
-    text-align: center;
-    color: #333;
-  }
+.custom-merch {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: white !important;
+  color: var(--text-color); /* Dynamic text color */
+  background-image: url('@/assets/images/paw-print.png');
+  background-size: 1600px;
+  background-repeat: repeat;
+  position: relative;
+}
+
   
   .custom-merch h2 {
     font-size: 2.5rem;
     color: #ff6f61;
     margin-bottom: 20px;
+  }
+
+  .custom-merch h3{
+    color:#333;
   }
   
   .custom-merch p {
