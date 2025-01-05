@@ -55,8 +55,8 @@ export default {
     <TestimonialSection/>
     <CustomMerchSection />
     <SaleSection />
-    <BestSellerSection />
-    <FeaturedProductsSection />
+    <!-- <BestSellerSection /> -->
+    <!-- <FeaturedProductsSection /> -->
     <FunFactsSection />
     <ContactSection />
   </div>

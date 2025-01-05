@@ -1,5 +1,5 @@
 <template>
-    <section class="sale">
+    <section class="sale" id="sale">
       <div class="sale-banner">
         <h2>🔥 Limited-Time Sale! 🔥</h2>
         <p>Up to 50% Off on Selected Items!</p>

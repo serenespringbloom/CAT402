@@ -7,7 +7,7 @@
       <div class="hero-content">
         <h1>Welcome to Meowchandise.my</h1>
         <p>Design Your Dream Merch or Shop Our Cat-Inspired Collection!</p>
-        <button class="cta-button">Shop Now</button>
+        <button class="cta-button" @click="scrollToSale">Shop Now</button>
         <button class="cta-button secondary" @click="scrollToCustomMerch">Design Your Own Merch</button>
       </div>
       <!-- Scroll Indicator -->
@@ -20,6 +20,14 @@
   <script>
   export default {
     methods: {
+      scrollToSale() {
+        const element = document.getElementById("sale");
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        } else {
+          console.error("Element with ID 'sale' not found.");
+        }
+      },
       scrollToCustomMerch() {
         const element = document.getElementById("custom-merch");
         if (element) {

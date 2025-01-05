@@ -37,7 +37,7 @@ export default {
         <!-- <a href="#">meowchandise.my</a> -->
       </h1>
       <nav class="nav-menu">
-        <a href="#">Home</a>
+        <a href="#search-bar">Home</a>
         <a href="#custom-merch">Products</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
