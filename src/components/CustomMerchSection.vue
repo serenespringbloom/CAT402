@@ -74,27 +74,21 @@
         customMerchProducts: [
           {
             id: 1,
-            name: "T-Shirt",
-            image: "src/assets/images/shirt.jpg",
-            price: 50,
+            name: "Pin",
+            image: "src/assets/images/cat-pin.png",
+            price: 5,
           },
           {
             id: 2,
-            name: "Mug",
-            image: "src/assets/images/mug.jpg",
-            price: 30,
+            name: "Phone Casing",
+            image: "src/assets/images/cat-phone-casing.png",
+            price: 10,
           },
           {
             id: 3,
-            name: "Tote Bag",
-            image: "src/assets/images/tote-bag.jpg",
-            price: 40,
-          },
-          {
-            id: 4,
-            name: "Cap",
-            image: "src/assets/images/cap.jpg",
-            price: 35,
+            name: "Sticker",
+            image: "src/assets/images/cat-sticker.png",
+            price: 3,
           },
         ],
         selectedProduct: null,
@@ -340,7 +334,7 @@ ul {
     max-width: 80%;
     max-height: 80%;
     opacity: 0.8;
-    border: 2px dashed #ff6f61;
+    /* border: 2px dashed #ff6f61; */
     pointer-events: none;
   }
   

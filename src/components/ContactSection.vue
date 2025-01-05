@@ -1,5 +1,5 @@
 <template>
-    <section class="contact">
+    <section class="contact" id="contact">
       <h2>Contact Us</h2>
       <p class="contact-description">
         Have questions, feedback, or need assistance? We’d love to hear from you!
